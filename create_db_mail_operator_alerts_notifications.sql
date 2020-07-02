@@ -1,4 +1,4 @@
--=====================================================
+--=====================================================
 
 -- This script performs the following tasks:
 --
@@ -162,7 +162,7 @@ EXEC msdb.dbo.sp_set_sqlagent_properties
   EXEC msdb.dbo.sp_add_operator  
     @name = N'New Operator',  --Operator's name
     @enabled = 1,  
-    @email_address = N'email@domain.com';  --email address for the alerts to be send to
+    @email_address = N'email@domain.com';  --email address for the alerts to be sent to
   GO  
 
 
